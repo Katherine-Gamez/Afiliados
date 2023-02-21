@@ -11,7 +11,8 @@ namespace AccesoDeDatos.Afiliacion
     {
         string AgregarAfiliado(DatosAfiliacionOBJ datos);
         string ActualizarAfiliado(DatosAfiliacionOBJ datos);
-        List<DatosAfiliacionOBJ> BuscarAfiliado();
+        List<DatosAfiliacionOBJ> BuscarAfiliados();
+        List<DatosAfiliacionOBJ> BuscarUnAfiliado(int id);
         string EliminarAfiliado(DatosAfiliacionOBJ datos);
         
     }

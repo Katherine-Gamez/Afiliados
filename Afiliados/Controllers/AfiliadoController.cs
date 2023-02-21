@@ -15,7 +15,7 @@ namespace Afiliados.Controllers
         }
 
 
-        [HttpGet(Name = "Ins")]
+        [HttpPost(Name = "Ins")]
         public string AgregarAfiliado (string nombre, string apellido, string direccion, string telefono)
         {
             DatosAfiliacionOBJ datos = new DatosAfiliacionOBJ();
@@ -31,7 +31,7 @@ namespace Afiliados.Controllers
         public string ActualizarAfiliado(int id,string nombre, string apellido, string direccion, string telefono)
         {
             DatosAfiliacionOBJ datos = new DatosAfiliacionOBJ();
-            datos.Id = id;
+            datos.ID = id;
             datos.Nombre = nombre;
             datos.Apellido = apellido;
             datos.Direccion = direccion;
@@ -40,17 +40,22 @@ namespace Afiliados.Controllers
             return _afiliacionln.ActualizarAfiliado(datos);
         }
 
-        [HttpPost(Name = "Read")]
-        public List<DatosAfiliacionOBJ> BuscarAfiliado()
+        [HttpPost(Name = "ReadAll")]
+        public List<DatosAfiliacionOBJ> BuscarAfiliados()
         {
-            return _afiliacionln.BuscarAfiliado();
+            return _afiliacionln.BuscarAfiliados();
+        }
+        [HttpGet(Name = "Read")]
+        public List<DatosAfiliacionOBJ> BuscarUnAfiliado(int id)
+        {
+            return _afiliacionln.BuscarUnAfiliado(id);
         }
 
         [HttpPost(Name = "Delete")]
         public string EliminarAfiliado(int Id)
         {
             DatosAfiliacionOBJ datos = new DatosAfiliacionOBJ();
-            datos.Id=Id;    
+            datos.ID=Id;    
 
             return _afiliacionln.EliminarAfiliado(datos);
         }

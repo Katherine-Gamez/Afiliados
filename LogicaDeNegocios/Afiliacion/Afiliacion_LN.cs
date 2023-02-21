@@ -29,11 +29,17 @@ namespace LogicaDeNegocios.Afiliacion
             return _afiliacionad.ActualizarAfiliado(datos);
 
         }
-        public List<DatosAfiliacionOBJ> BuscarAfiliado()
+        public List<DatosAfiliacionOBJ> BuscarAfiliados()
         {
 
 
-            return _afiliacionad.BuscarAfiliado();
+            return _afiliacionad.BuscarAfiliados();
+        }
+        public List<DatosAfiliacionOBJ> BuscarUnAfiliado(int id)
+        {
+
+
+            return _afiliacionad.BuscarUnAfiliado(id);
         }
         public string EliminarAfiliado(DatosAfiliacionOBJ datos)
         {
