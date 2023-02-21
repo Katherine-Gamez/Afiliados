@@ -33,12 +33,12 @@ namespace TestAfiliados
             arregloAfi.Add(datosAfi);
 
             _IAfiliacion_AD = Substitute.For<IAfiliacion_AD>();
-            _IAfiliacion_AD.BuscarAfiliado().ReturnsForAnyArgs(arregloAfi);
+            _IAfiliacion_AD.BuscarAfiliados().ReturnsForAnyArgs(arregloAfi);
 
             Afiliacion_LN afiliacion_LN = new Afiliacion_LN(_IAfiliacion_AD);
 
             //Act
-            var resutado = afiliacion_LN.BuscarAfiliado();
+            var resutado = afiliacion_LN.BuscarAfiliados();
 
             //Assert
             Assert.IsNotNull(resutado);
@@ -52,12 +52,12 @@ namespace TestAfiliados
             var arregloAfi = new List<DatosAfiliacionOBJ>();
          
             _IAfiliacion_AD = Substitute.For<IAfiliacion_AD>();
-            _IAfiliacion_AD.BuscarAfiliado().ReturnsForAnyArgs(arregloAfi);
+            _IAfiliacion_AD.BuscarAfiliados().ReturnsForAnyArgs(arregloAfi);
 
             Afiliacion_LN afiliacion_LN = new Afiliacion_LN(_IAfiliacion_AD);
 
             //Act
-            var resutado = afiliacion_LN.BuscarAfiliado();
+            var resutado = afiliacion_LN.BuscarAfiliados();
 
             //Assert
             Assert.IsEmpty(resutado);

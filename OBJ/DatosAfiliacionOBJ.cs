@@ -8,13 +8,12 @@ namespace OBJ
 {
     public class DatosAfiliacionOBJ
     {
-        public int? Id { get; set; }
+        public int? ID { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Error { get; set; }
-
         public string mensaje { get; set; }
     }
 }

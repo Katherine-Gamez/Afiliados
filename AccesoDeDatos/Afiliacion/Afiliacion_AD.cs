@@ -54,7 +54,7 @@ namespace AccesoDeDatos.Afiliacion
 
             using (OracleConnection con = new OracleConnection(@DBConnectString))
             {
-                string query = "UPDATE AFILIADO SET NOMBRE='" + datos.Nombre +"', APELLIDO='"+datos.Apellido+"', DIRECCION='"+datos.Direccion+"', TELEFONO='"+datos.Telefono+"' WHERE ID="+datos.Id;
+                string query = "UPDATE AFILIADO SET NOMBRE='" + datos.Nombre +"', APELLIDO='"+datos.Apellido+"', DIRECCION='"+datos.Direccion+"', TELEFONO='"+datos.Telefono+"' WHERE ID="+datos.ID;
                 con.TnsAdmin = UrlWallet;
                 con.WalletLocation = con.TnsAdmin;
                 using OracleCommand cmd = con.CreateCommand();
@@ -77,11 +77,11 @@ namespace AccesoDeDatos.Afiliacion
 
         }
 
-        public List<DatosAfiliacionOBJ> BuscarAfiliado()
+        public List<DatosAfiliacionOBJ> BuscarAfiliados()
         {
             using (OracleConnection con = new OracleConnection(@DBConnectString))
             {
-                string query = "SELECT * FROM AFILIADO";
+                string query = "SELECT ID, NOMBRE, APELLIDO, DIRECCION, TELEFONO FROM AFILIADO";
                 con.TnsAdmin = UrlWallet;
                 con.WalletLocation = con.TnsAdmin;
                 using OracleCommand cmd = new OracleCommand(query, con);
@@ -97,7 +97,7 @@ namespace AccesoDeDatos.Afiliacion
                     {
                         var obj = new DatosAfiliacionOBJ();
 
-                        obj.Id = reader["ID"] as int?;
+                        obj.ID = Convert.ToInt32(reader["Id"]);
                         obj.Nombre= reader["NOMBRE"] as string;
                         obj.Apellido = reader["APELLIDO"] as string;
                         obj.Direccion = reader["DIRECCION"] as string;
@@ -119,8 +119,50 @@ namespace AccesoDeDatos.Afiliacion
                     return list;
                 }
             }
+        }
 
-           
+        public List<DatosAfiliacionOBJ> BuscarUnAfiliado(int id)
+        {
+            using (OracleConnection con = new OracleConnection(@DBConnectString))
+            {
+                string query = "SELECT ID, NOMBRE, APELLIDO, DIRECCION, TELEFONO FROM AFILIADO WHERE ID="+id;
+                con.TnsAdmin = UrlWallet;
+                con.WalletLocation = con.TnsAdmin;
+                using OracleCommand cmd = new OracleCommand(query, con);
+                List<DatosAfiliacionOBJ> list = new List<DatosAfiliacionOBJ>();
+                try
+                {
+                    con.Open();
+                    //Retrieve database version info
+                    cmd.ExecuteNonQuery();
+                    OracleDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        var obj = new DatosAfiliacionOBJ();
+
+                        obj.ID = Convert.ToInt32(reader["Id"]);
+                        obj.Nombre = reader["NOMBRE"] as string;
+                        obj.Apellido = reader["APELLIDO"] as string;
+                        obj.Direccion = reader["DIRECCION"] as string;
+                        obj.Telefono = reader["TELEFONO"] as string;
+
+                        list.Add(obj);
+                    }
+
+                    con.Close();
+                    return list;
+                }
+                catch (Exception ex)
+                {
+                    var obj = new DatosAfiliacionOBJ();
+                    obj.Error = ex.Message;
+                    list.Add(obj);
+                    con.Close();
+
+                    return list;
+                }
+            }
         }
 
         public string EliminarAfiliado(DatosAfiliacionOBJ datos)
@@ -128,7 +170,7 @@ namespace AccesoDeDatos.Afiliacion
 
             using (OracleConnection con = new OracleConnection(@DBConnectString))
             {
-                string query = "DELETE FROM AFILIADO WHERE ID="+datos.Id;
+                string query = "DELETE FROM AFILIADO WHERE ID="+datos.ID;
                 con.TnsAdmin = UrlWallet;
                 con.WalletLocation = con.TnsAdmin;
                 using OracleCommand cmd = con.CreateCommand();
