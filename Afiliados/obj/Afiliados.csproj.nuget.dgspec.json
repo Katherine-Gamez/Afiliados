@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\Afiliados\\Afiliados.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\AccesoDeDatos\\AccesoDeDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\AccesoDeDatos\\AccesoDeDatos.csproj",
+        "projectName": "AccesoDeDatos",
+        "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\AccesoDeDatos\\AccesoDeDatos.csproj",
+        "packagesPath": "C:\\Users\\Kathy Gámez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\AccesoDeDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kathy Gámez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj": {
+                "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\Afiliados\\Afiliados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\Afiliados\\Afiliados.csproj",
+        "projectName": "Afiliados",
+        "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\Afiliados\\Afiliados.csproj",
+        "packagesPath": "C:\\Users\\Kathy Gámez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\Afiliados\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kathy Gámez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\LogicaDeNegocios\\LogicaDeNegocios.csproj": {
+                "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\LogicaDeNegocios\\LogicaDeNegocios.csproj"
+              },
+              "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj": {
+                "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\LogicaDeNegocios\\LogicaDeNegocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\LogicaDeNegocios\\LogicaDeNegocios.csproj",
+        "projectName": "LogicaDeNegocios",
+        "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\LogicaDeNegocios\\LogicaDeNegocios.csproj",
+        "packagesPath": "C:\\Users\\Kathy Gámez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\LogicaDeNegocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kathy Gámez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\AccesoDeDatos\\AccesoDeDatos.csproj": {
+                "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\AccesoDeDatos\\AccesoDeDatos.csproj"
+              },
+              "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj": {
+                "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj",
+        "projectName": "OBJ",
+        "projectPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\OBJ.csproj",
+        "packagesPath": "C:\\Users\\Kathy Gámez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kathy Gámez\\source\\repos\\Afiliados\\OBJ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kathy Gámez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

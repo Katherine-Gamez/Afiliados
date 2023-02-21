@@ -1,0 +1,15 @@
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\bin\Debug\net6.0\AccesoDeDatos.deps.json
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\bin\Debug\net6.0\AccesoDeDatos.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\bin\Debug\net6.0\AccesoDeDatos.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\bin\Debug\net6.0\OBJ.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\bin\Debug\net6.0\OBJ.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.csproj.AssemblyReference.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.AssemblyInfoInputs.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.AssemblyInfo.cs
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.csproj.CopyComplete
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\refint\AccesoDeDatos.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\AccesoDeDatos.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\AccesoDeDatos\obj\Debug\net6.0\ref\AccesoDeDatos.dll

@@ -1,0 +1,17 @@
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\LogicaDeNegocios.deps.json
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\LogicaDeNegocios.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\LogicaDeNegocios.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\AccesoDeDatos.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\OBJ.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\AccesoDeDatos.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\bin\Debug\net6.0\OBJ.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.csproj.AssemblyReference.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.AssemblyInfoInputs.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.AssemblyInfo.cs
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.csproj.CopyComplete
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\refint\LogicaDeNegocios.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\LogicaDeNegocios.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\LogicaDeNegocios\obj\Debug\net6.0\ref\LogicaDeNegocios.dll

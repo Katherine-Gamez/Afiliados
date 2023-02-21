@@ -1,0 +1,12 @@
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\bin\Debug\net6.0\OBJ.deps.json
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\bin\Debug\net6.0\OBJ.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\bin\Debug\net6.0\OBJ.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.csproj.AssemblyReference.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.AssemblyInfoInputs.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.AssemblyInfo.cs
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.csproj.CoreCompileInputs.cache
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\refint\OBJ.dll
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\OBJ.pdb
+C:\Users\Kathy Gámez\source\repos\Afiliados\OBJ\obj\Debug\net6.0\ref\OBJ.dll
